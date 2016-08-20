@@ -1,0 +1,1 @@
+du --human-readable --max-depth=1 | sort --human-numeric-sort
