@@ -1,0 +1,2 @@
+Run makeAll.sh to install by making soft-links
+The .bashprofile needs to be copied by hand and should only be used for machines without a profile
