@@ -12,7 +12,7 @@ alias xmgrace='xmgrace -hdevice PDF -g 1200x900'
 alias emacs='emacs -g 100x73'
 #alias aspell='aspell --add-tex-command eqnref op --add-tex-command affil op   -c'
 alias top='top -o cpu'
-
+#alias ipyth='ipython notebook'
 
 
 # added by Anaconda 2.3.0 installer
