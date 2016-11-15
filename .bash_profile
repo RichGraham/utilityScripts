@@ -1,9 +1,9 @@
 #========Run general unix profile============
-sh /source/utilityScripts/bash_profile
+source ~/source/utilityScripts/bash_profile
 
 
-#========Run general unix profile============
-sh /source/utilityScripts/bash_profile
+#========Run mac specific profile============
+#source ~/source/utilityScripts/macBashProfile
 
 #========Put machine specific commands here============
 
