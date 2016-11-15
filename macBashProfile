@@ -4,3 +4,5 @@ export PATH=$PATH:~/Dropbox/bin/:/usr/texbin/
 alias amacs='open -a /Applications/Aquamacs.app'
 alias excel='open -a /Applications/Microsoft\ Office\ 2011/Microsoft\ Excel.app/'
 alias ipyth='/Users/pmzrsg/anaconda/bin/ipython_mac.command'
+
+export LSCOLORS=ExFxCxDxBxegedabagacad
