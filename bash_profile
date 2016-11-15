@@ -7,7 +7,7 @@ export PATH=$PATH:~/bin:./
 
 export DISPLAY=:0.0
 
-export CLICOLOR=1
+#export CLICOLOR=1
 
 
 alias xmgrace='xmgrace -hdevice PDF -g 1200x900'
