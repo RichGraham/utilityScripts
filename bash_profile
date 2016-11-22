@@ -5,7 +5,7 @@ export PS1='\[\e[0;32m\]\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\]
 
 export PATH=$PATH:~/bin:./
 
-export DISPLAY=:0.0
+#export DISPLAY=:0.0
 
 export CLICOLOR=1
 
