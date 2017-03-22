@@ -1,6 +1,6 @@
 # Grace project file
 #
-@version 50122
+@version 50125
 @page size 792, 612
 @page scroll 5%
 @page inout 5%
@@ -54,7 +54,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Fri Jan 10 10:36:44 2014"
+@timestamp def "Wed Mar 22 16:08:11 2017"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -104,7 +104,7 @@
 @    world 0, 0, 1, 1
 @    stack world 0, 0, 0, 0
 @    znorm 1
-@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    view 0.181373, 0.150000, 1.235294, 0.931373
 @    title ""
 @    title font 0
 @    title size 1.500000
@@ -244,18 +244,3 @@
 @    frame pattern 1
 @    frame background color 0
 @    frame background pattern 0
-@ s0 symbol fill pattern 1
-@ s1 symbol fill pattern 1
-@ s2 symbol fill pattern 1
-@ s3 symbol fill pattern 1
-@ s4 symbol fill pattern 1
-@ s5 symbol fill pattern 1
-@ s6 symbol fill pattern 1
-@ s7 symbol fill pattern 1
-@ s8 symbol fill pattern 1
-@ s9 symbol fill pattern 1
-@ s10 symbol fill pattern 1
-@ s11 symbol fill pattern 1
-@ s12 symbol fill pattern 1
-@ s13 symbol fill pattern 1
-@ s14 symbol fill pattern 1

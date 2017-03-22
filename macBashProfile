@@ -3,7 +3,7 @@
 export PATH=$PATH:~/Dropbox/bin/:/usr/texbin/
 alias amacs='open -a /Applications/Aquamacs.app'
 alias emacs='open -a /Applications/Aquamacs.app'
-alias excel='open -a /Applications/Microsoft\ Office\ 2011/Microsoft\ Excel.app/'
+alias excel='open -a /Applications/Microsoft\ Excel.app/'
 alias top='top -o cpu'
 
 my_openiPython() {
