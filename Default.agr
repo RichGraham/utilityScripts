@@ -1,6 +1,5 @@
 # Grace project file
 #
-@version 50125
 @page size 792, 612
 @page scroll 5%
 @page inout 5%
