@@ -1,2 +1,10 @@
+This creates the following files
+- .bashprofile
+- .emacs
+- shell commands diskUse, oldHistory and search
+- a global .gitignore file
+- xmgrace template
+
+====Building====
 Run makeAll.sh to install by making soft-links
 The .bashprofile needs to be copied by hand and should only be used for machines without a profile
