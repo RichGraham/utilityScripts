@@ -34,3 +34,21 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 151 :width normal :foundry "urw" :family "Nimbus Mono L")))))
+
+
+;; sample code for setting a background color depending on file name extension
+
+(defun my-set-theme-on-mode ()
+  "set background color depending on file suffix"
+  (interactive)
+  (let ((fileNameSuffix (file-name-extension (buffer-file-name) ) ))
+    (cond
+     ((string= fileNameSuffix "el" ) (set-background-color "honeydew"))
+     ((string= fileNameSuffix "txt" ) (set-background-color "cornsilk"))
+     ((string= fileNameSuffix "c" ) (set-background-color "Lavender"))
+     ((string= fileNameSuffix "sh" ) (set-background-color "Light Cyan"))
+     (t (message "%s" "no match found"))
+     )
+    ))
+(add-hook 'find-file-hook 'my-set-theme-on-mode)
+
