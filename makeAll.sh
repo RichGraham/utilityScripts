@@ -6,6 +6,7 @@ ln -sf ~/source/utilityScripts/search ~/bin/
 ln -sf ~/source/utilityScripts/oldHistory ~/bin/
 ln -sf ~/source/utilityScripts/diskUse ~/bin/
 ln -sf ~/source/utilityScripts/.emacs ~/
+ln -sf ~/source/utilityScripts/timeDiff.sh ~/bin
 
 git config --global core.excludesfile ~/source/utilityScripts/global_gitignore
 
