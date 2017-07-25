@@ -1,6 +1,14 @@
 #!/bin/bash
+set -e
+#Check correct number of command line arguments
+if (( $# != 1 )); then
+   echo "Converts iPython notebooks to python scripts" >&2
+   echo "Usage  ipythToPython.sh [ipyth notebook]" >&2
+   echo "Example:  ipythToPython.sh SymmetricSqExp.ipynb" >&2
+  exit 1
+fi
 
-#Arguments
+#====Extract arguments====
 pythName=$1
 
 #Strip the ipynb extension
