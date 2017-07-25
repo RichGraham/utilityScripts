@@ -6,5 +6,10 @@ This creates the following files
 - xmgrace template
 
 ====Building====
-Run makeAll.sh to install by making soft-links
+Run ./makeAll.sh to install by making soft-links
 The .bashprofile needs to be copied by hand and should only be used for machines without a profile
+
+====Scripts====
+* timeDiff.sh: seems to be broken on a Mac :(
+
+* ipythToPython.sh: converts an iPython notebook into a python script

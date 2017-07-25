@@ -15,6 +15,10 @@
 ;;turn in flyspell for latex by default
 (add-hook 'LaTeX-mode-hook #'turn-on-flyspell)
 
+
+(setq-default TeX-master nil) ; LaTEx: Query for master file.
+
+
 ;;don't spell check comments
 (setq ispell-check-comments nil)
 
