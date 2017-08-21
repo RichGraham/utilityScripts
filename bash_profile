@@ -15,6 +15,8 @@ alias emacs='emacs -g 100x55'
 #alias aspell='aspell --add-tex-command eqnref op --add-tex-command affil op   -c'
 #alias ipyth='ipython notebook'
 alias em='emacs -nw -q -l ~/source/utilityScripts/emacs-nw.el'
+recent() { ls -htl "$@" | more; } #define the recent command
+
 
 # added by Anaconda 2.3.0 installer
 export PATH="/Users/pmzrsg/anaconda/bin:$PATH"
