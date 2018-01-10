@@ -9,7 +9,8 @@ sed 's/\// /g') | cut -f1) ] && echo "" || echo not up to date)
     if [ -n "$out1$out2" ]
     then
 	echo ============ $d ============
-	git status
+	echo $out1
+	echo $out2
 	echo ""
 	echo ""
     fi
