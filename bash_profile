@@ -10,7 +10,7 @@ export PATH=$PATH:~/bin:./
 export CLICOLOR=1
 
 
-alias xmgrace='xmgrace -hdevice PDF -g 1200x900'
+alias xmgrace='xmgrace -hdevice PDF -g 1150x900'
 alias emacs='emacs -g 100x55'
 #alias aspell='aspell --add-tex-command eqnref op --add-tex-command affil op   -c'
 #alias ipyth='ipython notebook'
