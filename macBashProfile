@@ -1,6 +1,6 @@
 #A mac-specific bash profile
 . /sw/bin/init.sh
-export PATH=$PATH:~/Dropbox/bin/:/usr/texbin/
+export PATH=$PATH:~/Dropbox/bin/:/usr/texbin/:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin/
 alias amacs='open -a /Applications/Aquamacs.app'
 alias excel='open -a /Applications/Microsoft\ Office\ 2011/Microsoft\ Excel.app/'
 alias top='top -o cpu'
