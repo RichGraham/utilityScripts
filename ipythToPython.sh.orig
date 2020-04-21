@@ -50,6 +50,13 @@ sed -i -e "s/.*#[[:space:]]In.*/ /" $filename.py
 { echo '#!/usr/bin/env python'; cat  $filename.py; } >  dum
 mv dum  $filename.py
 chmod +x $filename.py
+<<<<<<< HEAD
 #echo Copied source to $HOME/$location/$filename.py
 #cp $filename.py $HOME/$location
 rm dum
+=======
+echo Copied source to $HOME/$location/$filename.py
+cp $filename.py $HOME/$location
+#rm dum
+rm $filename.py-e 
+>>>>>>> ec0effd8dc4e417161db77e325e17c6457962cde
