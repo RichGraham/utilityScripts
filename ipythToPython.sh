@@ -50,7 +50,15 @@ sed -i -e "s/.*#[[:space:]]In.*/ /" $filename.py
 { echo '#!/usr/bin/env python'; cat  $filename.py; } >  dum
 mv dum  $filename.py
 chmod +x $filename.py
-echo Copied source to $HOME/$location/$filename.py
-cp $filename.py $HOME/$location
-#rm dum
+
+if [ -z "$location" ]
+then
+      echo "Pyton file put here"
+else
+      echo "\$var is NOT empty"
+
+
+      echo Copied source to $HOME/$location/$filename.py
+      cp $filename.py $HOME/$location
+fi
 rm $filename.py-e 
