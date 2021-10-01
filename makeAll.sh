@@ -10,6 +10,8 @@ ln -sf ~/source/utilityScripts/timeDiff.sh ~/bin
 ln -sf ~/source/utilityScripts/ipythToPython.sh  ~/bin
 ln -sf ~/source/utilityScripts/gitCheck.sh  ~/bin
 ln -sf ~/source/utilityScripts/sendToDesktop.sh  ~/bin
+ln -sf ~/source/utilityScripts/amacs  ~/bin
+ln -sf ~/source/utilityScripts/ipyth  ~/bin
 
 
 git config --global core.excludesfile ~/source/utilityScripts/global_gitignore
