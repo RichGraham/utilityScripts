@@ -4,6 +4,7 @@ This creates the following files
 - shell commands diskUse, oldHistory and search
 - a global .gitignore file
 - xmgrace template
+- jupyter notebook configuration 
 
 ====Building====
 Run ./makeAll.sh to install by making soft-links

@@ -13,6 +13,8 @@ ln -sf ~/source/utilityScripts/sendToDesktop.sh  ~/bin
 ln -sf ~/source/utilityScripts/amacs  ~/bin
 ln -sf ~/source/utilityScripts/ipyth  ~/bin
 
+ln -sf ~/source/utilityScripts/jupyter_notebook_config.py ~/.jupyter
+
 
 git config --global core.excludesfile ~/source/utilityScripts/global_gitignore
 
