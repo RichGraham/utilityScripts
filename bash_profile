@@ -16,6 +16,7 @@ alias emacs='emacs -g 100x55'
 #alias ipyth='ipython notebook'
 alias ls='ls --color=auto'
 alias em='emacs -nw -q -l ~/source/utilityScripts/emacs-nw.el'
+alias code='code -n'
 recent() { ls -htl "$@" | more; } #define the recent command
 
 
