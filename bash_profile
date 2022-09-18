@@ -22,3 +22,4 @@ recent() { ls -htl "$@" | more; } #define the recent command
 # added by Anaconda 2.3.0 installer
 export PATH="/Users/pmzrsg/anaconda/bin:$PATH"
 export PYTHONPATH=$PYTHONPATH:~/SheffieldML
+export PYTHONPATH=$PYTHONPATH:~/source/CohesionTool
