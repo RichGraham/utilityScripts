@@ -2,7 +2,7 @@
 
 for file in *.py
 do
-    if [[ ! "$file" =~ ^Test ]] && [[ ! "$file" =~ ^Property ]]
+    if [[ ! "$file" =~ ^Test ]]   && [[ ! "$file" =~ ^Property_Test ]] && [[ ! "$file" =~ ^SupportTests ]]
     then
 	echo  $file
 	
