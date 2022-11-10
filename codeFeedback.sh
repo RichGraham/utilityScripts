@@ -1,3 +1,4 @@
+lintAll.sh
 echo '====Complexity===='
 radon cc *.py -nc
 echo ''
