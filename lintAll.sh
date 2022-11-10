@@ -5,6 +5,13 @@ do
     if [[ ! "$file" =~ ^Test ]] && [[ ! "$file" =~ ^Property ]]
     then
 	echo  $file
+	
+	minimumsize=200
+	actualsize=$(wc -l <"$file")
+	if [ $actualsize -ge $minimumsize ]; then
+	    echo !!! $actualsize is probably too many lines. Does the class do too many things? !!!
+	fi
+	
 	pylint  --score=y --reports=n $file | grep 'Your code has been'
 	echo ' '
     fi
