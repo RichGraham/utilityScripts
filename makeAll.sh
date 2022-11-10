@@ -15,6 +15,7 @@ ln -sf ~/source/utilityScripts/amacs  ~/bin
 ln -sf ~/source/utilityScripts/ipyth  ~/bin
 ln -sf ~/source/utilityScripts/graceToPdf.sh  ~/bin
 ln -sf ~/source/utilityScripts/codeFeedback.sh  ~/bin
+ln -sf ~/source/utilityScripts/tidyLatexFiles.sh  ~/bin
 
 ln -sf ~/source/utilityScripts/jupyter_notebook_config.py ~/.jupyter
 
