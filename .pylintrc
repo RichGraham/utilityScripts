@@ -1,5 +1,5 @@
 [MESSAGES CONTROL]
-disable=C0103, C0116, C0115, C0114,C0301, C0321
+disable=C0103, C0116, C0115, C0114,C0301, C0321,W0201
 min-public-methods=1
 max-args = 3
 #pickle collected data for later comparisons.
