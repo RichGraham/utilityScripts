@@ -24,6 +24,7 @@ recent() { ls -htl "$@" | more; } #define the recent command
 export PATH="/Users/pmzrsg/anaconda/bin:$PATH"
 export PYTHONPATH=$PYTHONPATH:~/SheffieldML
 export PYTHONPATH=$PYTHONPATH:~/source/CohesionTool
+export PYTHONPATH=$PYTHONPATH:~/source/
 
 alias xmgrace='xmgrace -g 1200x950 -batch ~/source/utilityScripts/gracePatterns.bfile'
 

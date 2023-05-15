@@ -12,6 +12,6 @@ ipython notebook $1 &
 }
 alias ipyth=my_openiPython
 
-
+export PYTHONPATH=$PYTHONPATH:~/source/
 
 export LSCOLORS=ExFxCxDxBxegedabagacad

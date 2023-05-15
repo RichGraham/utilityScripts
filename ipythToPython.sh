@@ -22,7 +22,8 @@ pythName=$1
 filename=$(basename "$pythName")
 filename="${filename%.*}"
 
-ipython nbconvert --to=python $pythName
+#ipython nbconvert --to=python $pythName
+jupyter nbconvert --to python $pythName
 
 #Add a header warning
 currentDir=$(pwd)
@@ -61,4 +62,4 @@ else
       echo Copied source to $HOME/$location/$filename.py
       cp $filename.py $HOME/$location
 fi
-rm $filename.py-e 
+rm $filename.py-e
