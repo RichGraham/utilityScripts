@@ -32,6 +32,9 @@ echo '#*********WARNING:********* Do not edit this directly, instead copy the fi
 #Comment out the lines with the 'ipython_only' comment
 sed -i '' /#ipython_only/s/^/#/ $filename.py
 
+#Comment out the lines with the 'get_ipython' comment
+sed -i '' /get_ipython/s/^/#/ $filename.py
+
 #Remove comments from 'Python_only lines
 sed -i '' 's/^#Python_Only //' $filename.py
 
