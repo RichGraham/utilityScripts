@@ -17,7 +17,8 @@ ln -sf ~/source/utilityScripts/graceToPdf.sh  ~/bin
 ln -sf ~/source/utilityScripts/codeFeedback.sh  ~/bin
 ln -sf ~/source/utilityScripts/tidyLatexFiles.sh  ~/bin
 ln -sf ~/source/utilityScripts/lintAll.sh  ~/bin
-
+ln -sf ~/source/utilityScripts/cp_here.sh  ~/bin
+ln -sf ~/source/utilityScripts/get_file_path.sh ~/bin
 ln -sf ~/source/utilityScripts/jupyter_notebook_config.py ~/.jupyter
 
 
