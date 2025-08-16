@@ -15,8 +15,10 @@ ln -sf ~/source/utilityScripts/amacs  ~/bin
 ln -sf ~/source/utilityScripts/ipyth  ~/bin
 ln -sf ~/source/utilityScripts/graceToPdf.sh  ~/bin
 ln -sf ~/source/utilityScripts/codeFeedback.sh  ~/bin
+ln -sf ~/source/utilityScripts/codeFeedback_Fortran.sh  ~/bin
 ln -sf ~/source/utilityScripts/tidyLatexFiles.sh  ~/bin
 ln -sf ~/source/utilityScripts/lintAll.sh  ~/bin
+ln -sf ~/source/utilityScripts/lintAll_Fortran.sh  ~/bin
 ln -sf ~/source/utilityScripts/cp_here.sh  ~/bin
 ln -sf ~/source/utilityScripts/quick_plot.py  ~/bin
 ln -sf ~/source/utilityScripts/get_file_path.sh ~/bin
